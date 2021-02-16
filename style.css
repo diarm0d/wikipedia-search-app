@@ -12,13 +12,38 @@ body {
 
 .main-container {
     height: 100vh;
-    height: 100%;
     width: 100vw;
     position: relative;
 } 
 
-.logo-container {
+.header {
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 38px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000;
+    align-items: baseline;
+}
+
+.a-header, .w-header {
+    font-size: 48px;
+    align-items: baseline;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px; 
+    letter-spacing: 4px;
+    /* text-transform: uppercase; */
+    color: #343334; 
+}
+
+.logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +192,7 @@ input {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .random-button {
@@ -177,6 +202,7 @@ input {
         padding-right: 20px;
         border: none;
         font-family: 'Roboto', sans-serif;
+        letter-spacing: 2px;
         color:#FFF;
         background: #447FF5;
         box-shadow: 0 1px 4px rgba(0,0,0,0.5);
